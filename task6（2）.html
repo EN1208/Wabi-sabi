@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>中间定宽，两边自适应</title>
+        <style>
+           
+    .div{margin-left: 200px;
+      height: 300px;
+    }
+    .container{width: 800px;
+        height: 100px;
+      display: flex; 
+    }
+    .center{background-color: yellow;
+        color: yellow;
+      flex: 1;
+     
+    }
+    .left{
+      width: 200px;
+      background-color: red;
+      color: red;
+    }
+    .right{ background-color: blue;
+        color: blue;
+        width:200px ;
+    }
+</style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="left">left</div>
+            <div class="center">center</div>
+            <div class="right">right</div>
+        </div>
+    </body>
+</html>

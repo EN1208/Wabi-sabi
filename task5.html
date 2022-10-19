@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>task5</title>
+        <style>
+           .container{
+
+background-color: #ccc;
+
+position:absolute;
+
+height:200px; width:400px;
+
+left:50%; top:50%;
+
+margin:-100px 0 0 -200px;     /*负外边距分别为宽高的一半*/
+
+}
+            .cicle{
+    width:50px;
+    height:50px;
+    background-color: #fc0;
+}
+.one{position: relative;
+    -moz-border-radius:0  0 100% 0;  
+    -webkit-border-radius:0  0 100% 0;  
+    border-radius:0  0 100% 0;   
+}
+.two{position: relative;
+    left: 350px;
+    top: 100px;
+    -moz-border-radius:50px 0 0 0;  
+    -webkit-border-radius:50px 0 0 0;  
+    border-radius:50px 0 0 0; 
+}
+            </style>
+    </head>
+    <body>
+            <div class="container">
+                <div class="cicle one"></div>
+                <div class="cicle two"></div>
+        </div>
+    </body>
+</html>
